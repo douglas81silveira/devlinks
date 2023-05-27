@@ -12,6 +12,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(../assets/moon-stars.svg);
+  --alt-color: #5b286a80;
 }
 
 .light {
@@ -22,6 +23,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(../assets/sun.svg);
+  --alt-color: #cea7ea80;
 }
 
 body {
@@ -58,6 +60,8 @@ a {
 
 #profile img {
   width: 112px;
+  border-radius: 50%;
+  outline: 6px solid var(--alt-color);
 }
 
 #switch {
